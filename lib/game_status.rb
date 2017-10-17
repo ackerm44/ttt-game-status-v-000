@@ -62,4 +62,3 @@ def winner(board)
     return win_combation[0]
   end
 end
-
