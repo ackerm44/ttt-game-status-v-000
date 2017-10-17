@@ -47,7 +47,7 @@ def won?(board)
       puts position_1, combination_detail
       puts position_2, combination_detail
       puts position_3, combination_detail
-      
+
     end
   end
 end
