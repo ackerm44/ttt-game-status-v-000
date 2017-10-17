@@ -60,4 +60,6 @@ end
 def winner(board)
   if won?(board)
     return win_combation[0]
-    
+  end
+end
+
