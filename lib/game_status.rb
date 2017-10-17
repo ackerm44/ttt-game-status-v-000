@@ -41,7 +41,13 @@ WIN_COMBINATIONS = [
 def won?(board)
   WIN_COMBINATIONS.each do |win_combination|
     win_combination.each do |combination_detail|
-      puts combination_detail
+      position_1 = board[combination_detail]
+      position_2 = board[combination_detail]
+      position_3 = board[combination_detail]
+      puts position_1
+      puts position_2
+      puts position_3
+      
     end
   end
 end
