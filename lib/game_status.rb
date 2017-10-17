@@ -58,7 +58,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board)
-    puts "#{win_combination[0]}"
+  if win_combination = won?(board)
+    board[win_combination[0]]
   end
 end
