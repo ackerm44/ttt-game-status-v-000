@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.detect do |win_combination|
+  WIN_COMBINATIONS.each do |win_combination|
       #index = board[index]
       #if position_taken?(board, index)
 
