@@ -44,10 +44,12 @@ def won?(board)
       position_1 = board[combination_detail]
       position_2 = board[combination_detail]
       position_3 = board[combination_detail]
-      puts position_1 combination_detail
-      puts position_2 combination_detail
-      puts position_3 combination_detail
-
+      if (position_1 == "X" && position_2 == "X" && position_3 == "X") ||
+      (position_1 == "O" && position_2 == "O" && position_3 == "O")
+        return win_combination
+      else
+        return false
+      end
     end
   end
 end
