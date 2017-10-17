@@ -20,10 +20,12 @@ def won?(board)
     win_combination.each do |combination_detail|
       #index = board[index]
       #if position_taken?(board, index)
-      puts WIN_COMBINATIONS
         position_1 = board[win_combination[0]]
         position_2 = board[win_combination[1]]
         position_3 = board[win_combination[2]]
+        puts position_1
+        puts position_2
+        puts position_3
         if (position_1 == "X" && position_2 == "X" && position_3 == "X") ||
         (position_1 == "O" && position_2 == "O" && position_3 == "O")
           return win_combination
